@@ -3,7 +3,7 @@ cask "bifrost" do
   name "bifrost"
   desc "A command-line utility to simplify connecting to AWS RDS/Redis instances through bastion hosts utilising AWS SSM Session Manager."
   homepage "https://github.com/b3nk3/bifrost"
-  version "0.9.5"
+  version "0.10.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -21,11 +21,11 @@ cask "bifrost" do
   on_macos do
     on_intel do
       url "https://github.com/b3nk3/bifrost/releases/download/v#{version}/bifrost_Darwin_x86_64.tar.gz"
-      sha256 "83839fe1f6dfdafa3067abed5bff546c2f117f00325123380886edeb79f46806"
+      sha256 "687e01c3be50c35dbee7d44fb28ed086a0ed9fa2c4b6c923391f86c98624509e"
     end
     on_arm do
       url "https://github.com/b3nk3/bifrost/releases/download/v#{version}/bifrost_Darwin_arm64.tar.gz"
-      sha256 "e753ded873cc3520b63a7f2b0d103e58791c8a56a3430c9b76c8d616dc5914bf"
+      sha256 "6dca144db0958ad14eefaa225eb29a00dc18c1c7453382a0a27c142cf7cd7ecc"
     end
   end
 
